@@ -4,16 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="../img/cafe logo.webp"
+            type="image/x-icon">
         <script src="https://kit.fontawesome.com/b61a4ed80b.js"
-        crossorigin="anonymous"></script>
-        
+            crossorigin="anonymous"></script>
+
         <script src="script.js" defer></script>
-        
+
         <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
         <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-        <title>Document</title>
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+        <title>Trabalho</title>
     </head>
     <body>
         <div class="copo">
@@ -26,9 +28,43 @@
                 </div>
 
                 <div class="menu">
-                    <i class="fa-solid fa-bars"></i>
+
+                    <!-- CAIXA MOBILE -->
+                    <div class="mobile-menu" id="mobileMenu">
+
+                        <!-- Botão para ser utilizado para fechamento da lista -->
+                        <button id="closeButton" class="close">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+
+                        <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
+                        <ul class="nav-links-mobile">
+                            <li>
+                                <a href>Sobre</a>
+                            </li>
+                            <li>
+                                <a href>Serviços</a>
+                            </li>
+                            <li>
+                                <a href>Como funciona</a>
+                            </li>
+                            <li>
+                                <a href>Fornecedores</a>
+                            </li>
+                        </ul>
+
+                        <!-- Fim da caixa do Menu Hamburguer (Quando estiver aberto) -->
+                    </div>
+
+                    <!-- Botão de Hamburguer, ele está fora da Div justamente por ser um elemento singular -->
+                    <button class="hamburger" id="hamburgerButton">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <!-- Fim do Menu de Navegação -->
                 </div>
 
+                
             </header>
 
             <!-- ============================SESSÃO1================================ -->
@@ -69,56 +105,147 @@
             <div class="carousel">
 
                 <div class="coffee p">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Deleniti totam libero iste in id nobis illo saepe! Itaque
-                        omnis nobis commodi est, sapiente, laborum eos architecto
-                        provident repudiandae veniam deserunt.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Deleniti totam libero iste in id nobis illo saepe! Itaque
+                    omnis nobis commodi est, sapiente, laborum eos architecto
+                    provident repudiandae veniam deserunt.
                 </div>
-                
+
                 <div class="coffee nuvem">
-                    <h3>themoon</h3>
-                    <p>Descrição do card 1.</p>
                 </div>
 
                 <div class="coffee sol">
-                    <h3>Card 2</h3>
-                    <p>Descrição do card 2.</p>
                 </div>
 
                 <div class="coffee guarda">
-                    <h3>Card 3</h3>
-                    <p>Descrição do card 3.</p>
                 </div>
 
                 <div class="coffee estrela">
-                    <h3>Card 4</h3>
-                    <p>Descrição do card 4.</p>
                 </div>
 
             </div>
 
         </section>
 
-        <section></section>
+        <!-- sessão3 -->
+        <section class="sessao3">
+            <div class="pai-inform" id="dir">
+                <div class="box-inform mobile">
+                    <h2>The House Blend</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Error quidem cupiditate perspiciatis eius laborum
+                        accusantium animi provident iusto fugiat molestiae
+                        nostrum, deserunt sequi vel quo magnam. Excepturi ipsam
+                        commodi repellendus.
+                        Veritatis nemo quasi voluptates labore quaerat alias
+                        commodi perferendis, quis consequatur temporibus
+                        corporis quos assumenda. Ipsum tenetur, necessitatibus
+                        voluptatum quasi ab animi aliquid, nemo neque deleniti,
+                        placeat nisi porro architecto? <br><br>
 
-        <section></section>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse, asperiores neque, voluptatum porro beatae expedita
+                        enim impedit voluptas necessitatibus vel inventore
+                        ratione a molestias dolorem nesciunt aperiam? Maxime,
+                        iste aliquid! <br><br>
 
-        <section></section>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Exercitationem earum sapiente fugiat possimus
+                        consequatur expedita a obcaecati, eum blanditiis rerum
+                        minima numquam nulla vitae in eius non molestiae quasi
+                        ipsum?</p>
 
+                    <br><br><br>
+                    <a href>move</a>
+                </div>
+                <div class="box-img">
+                    <img src="../img/1.jpg" alt="cafe-manha" class="img">
+                </div>
+            </div>
 
+            <div class="pai-inform" id="esq">
+                <div class="box-img">
+                    <img src="../img/2.jpg" alt="cafe-manha" class="img">
+                </div>
+                <div class="box-inform mobile" id="direita">
+                    <h2>The House Blend</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Error quidem cupiditate perspiciatis eius laborum
+                        accusantium animi provident iusto fugiat molestiae
+                        nostrum, deserunt sequi vel quo magnam. Excepturi ipsam
+                        commodi repellendus.
+                        Veritatis nemo quasi voluptates labore quaerat alias
+                        commodi perferendis, quis consequatur temporibus
+                        corporis quos assumenda. Ipsum tenetur, necessitatibus
+                        voluptatum quasi ab animi aliquid, nemo neque deleniti,
+                        placeat nisi porro architecto? <br><br>
 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse, asperiores neque, voluptatum porro beatae expedita
+                        enim impedit voluptas necessitatibus vel inventore
+                        ratione a molestias dolorem nesciunt aperiam? Maxime,
+                        iste aliquid! <br><br>
 
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Exercitationem earum sapiente fugiat possimus
+                        consequatur expedita a obcaecati, eum blanditiis rerum
+                        minima numquam nulla vitae in eius non molestiae quasi
+                        ipsum?</p>
 
+                    <br><br><br>
+                    <a href>move</a>
+                </div>
+            </div>
 
+            <div class="feedback">
+                <div class="sms">
+                    <h2>
+                        Newsletter
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Ad
+                        voluptates, delectus officia modi nobis odio eligendi
+                    </p>
+                </div>
+                <div class="input">
+                    <div>
+                        <input type="email" required
+                            placeholder="Email">
 
+                        <input type="text" required
+                            placeholder="Nome">
+                    </div>
 
+                    <input type="submit" value="Enviar">
+                </div>
+            </section>
 
+            <footer>
+                <h3>Trabalho Obra Social Dom Bosco</h3>
+                <nav>
+                    <ul>
+                        <li>Muito</li>
+                        <li>Obrigado</li>
+                        <li>Professor</li>
+                        <li>Pelo</li>
+                        <li>Aprendizado</li>
+                    </ul>
+                </nav>
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </footer>
 
-        <!-- Inclui o JavaScrpt do Slick Carousel, que controla a funcionalidade do carrosel -->
-        <!-- Link CDN do JavaScript do Slick, essencial para inicializar -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    </body>
-</html>
+            <script src="https://unpkg.com/scrollreveal"></script>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+            <!-- Inclui o JavaScrpt do Slick Carousel, que controla a funcionalidade do carrosel -->
+            <!-- Link CDN do JavaScript do Slick, essencial para inicializar -->
+            <script
+                src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        </body>
+    </html>
